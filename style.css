@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "BET";
+    src: url(BeautifulEveryTime.ttf) format("truetype");
+}
+
+body {
+	background: url("http://www.sharebyme.com/wp-content/uploads/2016/08/pattern_background1.png");
+	background-attachment: fixed;
+	font-family: "BET";
+	color: rgba(255,255,255,1);
+}
+
+.menu {
+	background: rgba(0,0,0,0.4);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	width: 600px;
+	min-height: 300px;
+	border-radius: 25px;
+	border: 3px dashed white;
+}
+
+h1 {
+	
+}
+
+p {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.links table {
+	margin: auto;
+}
+
+.links img {
+	width: 75px;
+	border-radius: 20px;
+}
+
+.links td {
+	margin: 50px;
+}
+
+.info img {
+	width: 100px;
+	height: 100px;
+	border-radius: 25px;
+	
+}
+
+.nick-tbl {
+	border: 2px dashed white;
+	border-radius: 20px;
+	background-color: rgba(255,255,255,0.2);
+}
+
+.nick  {
+	color: pink;
+
+}
+
+.nick-tbl {
+	border-spacing: 10px;
+}
+	
