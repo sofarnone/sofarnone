@@ -1,0 +1,98 @@
+body {
+  background: url('/rp/static/images/background.jpg') center center fixed;
+  background-size: 100% 100%;
+}
+
+.container {
+	width: 80%;
+	max-width: 80%;
+}
+
+
+a {
+  color: #164bb1;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #1c5ede;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.navbar {
+  position: relative;
+  z-index: 1000;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+
+/* Custom shit
+-------------------------------------------------- */
+
+.bs-callout {
+	margin: 20px 0;
+	padding: 15px 30px 15px 15px;
+	border-left: 5px solid #eee;
+}
+.bs-callout h4 {
+	margin-top: 0;
+}
+.bs-callout p:last-child {
+	margin-bottom: 0;
+	color: white;
+}
+.bs-callout code,
+.bs-callout .highlight {
+	background-color: #fff;
+}
+
+.bs-callout-danger {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-color: #FF0600;
+	color: #FF0600;
+}
+.bs-callout-warning {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-color: #FF7700;
+	color: #FF7700;
+}
+.bs-callout-info {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-color: #164BB1;
+	color: #164BB1;
+}
+
+.bs-callout-text {
+	color: white;
+}
+
+
+tr {
+	border-left: 2px solid #113C8D;
+	border-right: 2px solid #113C8D;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+tr.supDanger {
+	border-left: 2px solid rgba(200, 0, 0, 0.7);
+	border-right: 2px solid rgba(200, 0, 0, 0.7); 
+	background-color: rgba(200, 0, 0, 0.2);
+}
+
+tr.supWarning {
+	border-left: 2px solid rgba(200, 100, 0, 1);
+	border-right: 2px solid rgba(200, 100, 0, 1);
+	background-color: rgba(200, 100, 0, 0.2);
+}
+
+tr.supSuccess {
+	border-left: 2px solid rgba(0, 200, 0, 0.7);
+	border-right: 2px solid rgba(0, 200, 0, 0.7);
+	background-color: rgba(0, 200, 0, 0.2);
+}
