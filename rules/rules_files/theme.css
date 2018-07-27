@@ -1280,8 +1280,14 @@ pre code {
   }
 }
 table {
-  max-width: 100%;
-  background-color: transparent;
+	max-width: 100%;
+	background-color: transparent;
+	text-align: center !important;
+	vertical-align: center !important;
+}
+
+td {
+	padding: 10px;
 }
 th {
   text-align: left;
@@ -6328,4 +6334,7 @@ legend {
 }
 .thumbnail .caption .caption-label {
   color: #164bb1;
+}
+table td {
+	border: 2px solid rgba(22, 75, 177, 0.8);
 }
